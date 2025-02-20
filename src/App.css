@@ -1,0 +1,73 @@
+.card-con{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.h4
+{
+text-align: center;
+}
+/* In your external CSS file, e.g., App.css */
+.navbar-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  /* Ensure the carousel container is fully responsive */
+.carousel {
+    max-width: 100%;
+    margin: 0 auto; /* Centering the carousel on the page */
+    border-radius: 10px; /* Optional: rounded corners for the carousel */
+    overflow: hidden; /* Ensures no images overflow outside the carousel */
+  }
+  
+  /* Style for the carousel images */
+  .carousel-item img {
+    object-fit: cover; /* Ensures images fill the carousel area without distortion */
+    height: 400px; /* Set a consistent height for the images */
+    width: 100%; /* Full width to cover the container */
+  }
+  
+  /* Optional: Add some padding or margin around the carousel controls */
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark background for control buttons */
+    border-radius: 50%;
+  }
+  
+  /* Hover effect for carousel control buttons */
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker when hovered */
+  }
+  
+  /* Style for the carousel indicators (optional, for dot navigation) */
+  .carousel-indicators li {
+    background-color: #000; /* Black dots */
+  }
+  
+  /* Customize the active indicator dot */
+  .carousel-indicators .active {
+    background-color: #fff; /* White color for active dot */
+  }
+  
+  /* Optional: Add a shadow around the carousel */
+  .carousel-inner {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow around carousel */
+  }
+  
+  /* Add margin to the top of the carousel */
+  #carouselExample {
+    margin-top: 30px;
+  }
+  
+  /* Add responsiveness for small screen sizes */
+  @media (max-width: 767px) {
+    .carousel-item img {
+      height: 250px; /* Adjust the height for smaller screens */
+    }
+  }
+  
+  
